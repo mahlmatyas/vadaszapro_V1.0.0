@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://mahlmatyas.github.io/vadaszapro_net",
+  "buildOrder" : 7,
+  "buildName" : "GitHub Actions Run #1143986105",
+  "buildUrl" : "https://github.com/mahlmatyas/vadaszapro_net/actions/runs/1143986105",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_net/7/"
+} ]

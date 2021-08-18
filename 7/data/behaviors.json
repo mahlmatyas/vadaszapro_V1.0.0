@@ -1,0 +1,148 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Megnyitom az adatkezelési nyilatkozatot",
+    "uid" : "aaf00ef05f1fa89b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629306138131,
+      "stop" : 1629306148218,
+      "duration" : 10087
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Mentem a hirdetések címét egy fájlba, majd ráellenörzök dbszám szerint",
+    "uid" : "2091aaed27fc8df6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629306148323,
+      "stop" : 1629306156637,
+      "duration" : 8314
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Ellenörzöm hirdetés nem nyomja-e szét az oldalt",
+    "uid" : "ca2cf3ee1deb8d7f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629306156642,
+      "stop" : 1629306162316,
+      "duration" : 5674
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Klikkelek az összes hirdetés linkre a nyitóoldalon",
+    "uid" : "b08a659e8e404d37",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629306162323,
+      "stop" : 1629306165382,
+      "duration" : 3059
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Belépés után a szabályos kijelentkezést ellenörzöm",
+    "uid" : "30ed5137bd5f171f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629306165396,
+      "stop" : 1629306175815,
+      "duration" : 10419
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TestRegistration()",
+    "uid" : "649bdbbaf60a7c8d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629306175867,
+      "stop" : 1629306184812,
+      "duration" : 8945
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "A bejelentkezést helyes folyamatát ellenörzöm",
+    "uid" : "112b5dc04a0d5a83",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629306184858,
+      "stop" : 1629306193918,
+      "duration" : 9060
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Ellenörzöm a jelszóemlékeztető helyes működését",
+    "uid" : "245bbc5a3162f00",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629306193933,
+      "stop" : 1629306198962,
+      "duration" : 5029
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TestSearch()",
+    "uid" : "5d526f1f589537e5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629306198966,
+      "stop" : 1629306204544,
+      "duration" : 5578
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Kontakt formot ellenörzöm bevitt adatokkal",
+    "uid" : "e954aee0ff3a65c7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629306204571,
+      "stop" : 1629306232728,
+      "duration" : 28157
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Belépek egy hirdetésbe amit modosítok",
+    "uid" : "f066d1d5e25f3415",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629306232737,
+      "stop" : 1629306245896,
+      "duration" : 13159
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
