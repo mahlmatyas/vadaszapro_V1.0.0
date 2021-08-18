@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
 import java.util.Random;
 
 public class Meth {
@@ -46,14 +45,14 @@ public class Meth {
     }
 
     public static WebElement goWait(By value, WebDriver driver) {
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(value));
         wait.until(ExpectedConditions.elementToBeClickable(value));
         return driver.findElement(value);
     }
 
     public static String popUpAccept() {
-        //wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait = new WebDriverWait(driver, 10);
         //wait.until(ExpectedConditions.alertIsPresent());
         try {
             Thread.sleep(3000);
