@@ -1,0 +1,103 @@
+{
+  "total" : 9,
+  "items" : [ {
+    "uid" : "a88ac0613603c7b481bd6c9dbd3ff6c0",
+    "name" : "Tests.TestIndexPage.TestIndexPage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "79b4cd2c11eaa622ca686c011a8c9d88",
+    "name" : "Tests.TestLogout.TestLogout",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "474dfe2d622f17a27dc2645f50944749",
+    "name" : "Tests.TestAdatKezelesi.TestAdatKezelesi",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "cdb075639f60769b2b7aadec0d842aac",
+    "name" : "Tests.TestLogin.TestLogin",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "30defa31b85e6ca9371553ce10c4c0a1",
+    "name" : "Tests.TestRegistration.TestRegistration",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "9336107f95bcdbb7970298b05349ab60",
+    "name" : "Tests.TestContact.TestContact",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3d76711be015abd18db72199a216882e",
+    "name" : "Tests.TestNewPwd.TestNewPwd",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "cc6483bb5e6388e85861d22405570782",
+    "name" : "Tests.TestSearch.TestSearch",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "f01814db435261324145ebb8ed5fb6d5",
+    "name" : "Tests.TestAdvertModify.TestAdvertModify",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

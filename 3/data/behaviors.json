@@ -1,0 +1,148 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Belépés után a szabályos kijelentkezést ellenörzöm",
+    "uid" : "d85b81bc8c1905b3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629303515005,
+      "stop" : 1629303515133,
+      "duration" : 128
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Megnyitom az adatkezelési nyilatkozatot",
+    "uid" : "a7a53b152ff8793e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629303515042,
+      "stop" : 1629303515188,
+      "duration" : 146
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Mentem a hirdetések címét egy fájlba, majd ráellenörzök dbszám szerint",
+    "uid" : "31addc9e6fed17a5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629303515362,
+      "stop" : 1629303515364,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "A bejelentkezést helyes folyamatát ellenörzöm",
+    "uid" : "c4da5dd1e372c7b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629303515362,
+      "stop" : 1629303515372,
+      "duration" : 10
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Ellenörzöm hirdetés nem nyomja-e szét az oldalt",
+    "uid" : "556c4d2d85a88bac",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629303515386,
+      "stop" : 1629303515392,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Klikkelek az összes hirdetés linkre a nyitóoldalon",
+    "uid" : "54b2638c4a7de1b6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629303515402,
+      "stop" : 1629303515406,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TestRegistration()",
+    "uid" : "31e4a0e38ece0922",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629303515425,
+      "stop" : 1629303515426,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Kontakt formot ellenörzöm bevitt adatokkal",
+    "uid" : "9d5d46fe667e7b87",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629303515442,
+      "stop" : 1629303515449,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Ellenörzöm a jelszóemlékeztető helyes működését",
+    "uid" : "c0e53572ff9e0e08",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629303515455,
+      "stop" : 1629303515459,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TestSearch()",
+    "uid" : "d39029de056877da",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629303515469,
+      "stop" : 1629303515471,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Belépek egy hirdetésbe amit modosítok",
+    "uid" : "a751501c8b1dc09a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629303515475,
+      "stop" : 1629303515476,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
