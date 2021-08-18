@@ -1,0 +1,160 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az77-600",
+    "children" : [ {
+      "name" : "2898@fv-az77-600.ForkJoinPool-1-worker-1(12)",
+      "children" : [ {
+        "name" : "Klikkelek az összes hirdetés linkre a nyitóoldalon",
+        "uid" : "9177dba43b97f7e6",
+        "parentUid" : "edb39027d1cb0d99593f793d04f00606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629303650663,
+          "stop" : 1629303653768,
+          "duration" : 3105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "A bejelentkezést helyes folyamatát ellenörzöm",
+        "uid" : "88b3640a25fc5eda",
+        "parentUid" : "edb39027d1cb0d99593f793d04f00606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629303664681,
+          "stop" : 1629303673630,
+          "duration" : 8949
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ellenörzöm a jelszóemlékeztető helyes működését",
+        "uid" : "62de22e78368bb7",
+        "parentUid" : "edb39027d1cb0d99593f793d04f00606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629303673646,
+          "stop" : 1629303678596,
+          "duration" : 4950
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ellenörzöm hirdetés nem nyomja-e szét az oldalt",
+        "uid" : "e1fd08f12565c94b",
+        "parentUid" : "edb39027d1cb0d99593f793d04f00606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629303645230,
+          "stop" : 1629303650659,
+          "duration" : 5429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestSearch()",
+        "uid" : "704f2003860e7ca2",
+        "parentUid" : "edb39027d1cb0d99593f793d04f00606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629303678602,
+          "stop" : 1629303685637,
+          "duration" : 7035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Kontakt formot ellenörzöm bevitt adatokkal",
+        "uid" : "d20d7815fc83a03",
+        "parentUid" : "edb39027d1cb0d99593f793d04f00606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629303685660,
+          "stop" : 1629303714081,
+          "duration" : 28421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Mentem a hirdetések címét egy fájlba, majd ráellenörzök dbszám szerint",
+        "uid" : "549ae602be3c2be5",
+        "parentUid" : "edb39027d1cb0d99593f793d04f00606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629303634352,
+          "stop" : 1629303645224,
+          "duration" : 10872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Belépés után a szabályos kijelentkezést ellenörzöm",
+        "uid" : "86a884ff62cd7725",
+        "parentUid" : "edb39027d1cb0d99593f793d04f00606",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629303653784,
+          "stop" : 1629303664646,
+          "duration" : 10862
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Megnyitom az adatkezelési nyilatkozatot",
+        "uid" : "20ee18dc394e84b1",
+        "parentUid" : "edb39027d1cb0d99593f793d04f00606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629303621485,
+          "stop" : 1629303634234,
+          "duration" : 12749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Belépek egy hirdetésbe amit modosítok",
+        "uid" : "c6adbab6a1cd6a62",
+        "parentUid" : "edb39027d1cb0d99593f793d04f00606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629303714086,
+          "stop" : 1629303727638,
+          "duration" : 13552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "edb39027d1cb0d99593f793d04f00606"
+    }, {
+      "name" : "2905@fv-az77-600.ForkJoinPool-1-worker-1(12)",
+      "children" : [ {
+        "name" : "TestRegistration()",
+        "uid" : "d989017a7112aaea",
+        "parentUid" : "28fe68db6416d8aba4fb1b7728583cef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629303621448,
+          "stop" : 1629303636192,
+          "duration" : 14744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28fe68db6416d8aba4fb1b7728583cef"
+    } ],
+    "uid" : "20c45169193eff4cc899a194c0a8daf5"
+  } ],
+  "name" : "timeline"
+}

@@ -1,0 +1,128 @@
+{
+  "uid" : "e1fd08f12565c94b",
+  "name" : "Ellenörzöm hirdetés nem nyomja-e szét az oldalt",
+  "fullName" : "Tests.TestIndexPage.TestIndexPage.TestAllAdvertContent",
+  "historyId" : "e4eea32fb60d548dfeb592aaabf4c463",
+  "time" : {
+    "start" : 1629303645230,
+    "stop" : 1629303650659,
+    "duration" : 5429
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629303645234,
+      "stop" : 1629303647877,
+      "duration" : 2643
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1629303650588,
+      "stop" : 1629303650659,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-600"
+  }, {
+    "name" : "thread",
+    "value" : "2898@fv-az77-600.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestIndexPage.TestIndexPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestIndexPage.TestIndexPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAllAdvertContent"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestIndexPage.TestIndexPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "a5538aae407cf8a0",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/4//#testresult/a5538aae407cf8a0",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303558903,
+          "stop" : 1629303558913,
+          "duration" : 10
+        }
+      }, {
+        "uid" : "556c4d2d85a88bac",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/3//#testresult/556c4d2d85a88bac",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303515386,
+          "stop" : 1629303515392,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "5d0f88ed5932b225",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/2//#testresult/5d0f88ed5932b225",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303284942,
+          "stop" : 1629303284949,
+          "duration" : 7
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e1fd08f12565c94b.json",
+  "parameterValues" : [ ]
+}

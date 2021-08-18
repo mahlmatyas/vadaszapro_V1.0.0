@@ -1,0 +1,111 @@
+[ {
+  "uid" : "d20d7815fc83a03",
+  "name" : "Kontakt formot ellenörzöm bevitt adatokkal",
+  "time" : {
+    "start" : 1629303685660,
+    "stop" : 1629303714081,
+    "duration" : 28421
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d989017a7112aaea",
+  "name" : "TestRegistration()",
+  "time" : {
+    "start" : 1629303621448,
+    "stop" : 1629303636192,
+    "duration" : 14744
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6adbab6a1cd6a62",
+  "name" : "Belépek egy hirdetésbe amit modosítok",
+  "time" : {
+    "start" : 1629303714086,
+    "stop" : 1629303727638,
+    "duration" : 13552
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62de22e78368bb7",
+  "name" : "Ellenörzöm a jelszóemlékeztető helyes működését",
+  "time" : {
+    "start" : 1629303673646,
+    "stop" : 1629303678596,
+    "duration" : 4950
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "549ae602be3c2be5",
+  "name" : "Mentem a hirdetések címét egy fájlba, majd ráellenörzök dbszám szerint",
+  "time" : {
+    "start" : 1629303634352,
+    "stop" : 1629303645224,
+    "duration" : 10872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20ee18dc394e84b1",
+  "name" : "Megnyitom az adatkezelési nyilatkozatot",
+  "time" : {
+    "start" : 1629303621485,
+    "stop" : 1629303634234,
+    "duration" : 12749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86a884ff62cd7725",
+  "name" : "Belépés után a szabályos kijelentkezést ellenörzöm",
+  "time" : {
+    "start" : 1629303653784,
+    "stop" : 1629303664646,
+    "duration" : 10862
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9177dba43b97f7e6",
+  "name" : "Klikkelek az összes hirdetés linkre a nyitóoldalon",
+  "time" : {
+    "start" : 1629303650663,
+    "stop" : 1629303653768,
+    "duration" : 3105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88b3640a25fc5eda",
+  "name" : "A bejelentkezést helyes folyamatát ellenörzöm",
+  "time" : {
+    "start" : 1629303664681,
+    "stop" : 1629303673630,
+    "duration" : 8949
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1fd08f12565c94b",
+  "name" : "Ellenörzöm hirdetés nem nyomja-e szét az oldalt",
+  "time" : {
+    "start" : 1629303645230,
+    "stop" : 1629303650659,
+    "duration" : 5429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "704f2003860e7ca2",
+  "name" : "TestSearch()",
+  "time" : {
+    "start" : 1629303678602,
+    "stop" : 1629303685637,
+    "duration" : 7035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

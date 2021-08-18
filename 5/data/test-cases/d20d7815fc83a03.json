@@ -1,0 +1,128 @@
+{
+  "uid" : "d20d7815fc83a03",
+  "name" : "Kontakt formot ellenörzöm bevitt adatokkal",
+  "fullName" : "Tests.TestContact.TestContact.TestContact",
+  "historyId" : "7c3d7e9734fb7974768702cd5efaac31",
+  "time" : {
+    "start" : 1629303685660,
+    "stop" : 1629303714081,
+    "duration" : 28421
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629303685661,
+      "stop" : 1629303688769,
+      "duration" : 3108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1629303714004,
+      "stop" : 1629303714081,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-600"
+  }, {
+    "name" : "thread",
+    "value" : "2898@fv-az77-600.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestContact.TestContact"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestContact.TestContact"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestContact"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestContact.TestContact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "eaffdd6708b7e1bb",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/4//#testresult/eaffdd6708b7e1bb",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303559056,
+          "stop" : 1629303559059,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "9d5d46fe667e7b87",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/3//#testresult/9d5d46fe667e7b87",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303515442,
+          "stop" : 1629303515449,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "7f545cf838833126",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/2//#testresult/7f545cf838833126",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303285083,
+          "stop" : 1629303285086,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d20d7815fc83a03.json",
+  "parameterValues" : [ ]
+}
