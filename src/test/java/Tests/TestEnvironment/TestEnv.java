@@ -34,10 +34,9 @@ public class TestEnv {
 
         Meth.driver = driver;
     }
-    /*
+
     @AfterEach
-    //public void TearDown(){
+    public void TearDown(){
         driver.quit();
     }
-    */
 }
