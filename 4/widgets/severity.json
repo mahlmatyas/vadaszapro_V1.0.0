@@ -1,0 +1,111 @@
+[ {
+  "uid" : "4b60ef3f74f28a3d",
+  "name" : "TestRegistration()",
+  "time" : {
+    "start" : 1629303558948,
+    "stop" : 1629303558951,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "89cf95996821f458",
+  "name" : "Belépek egy hirdetésbe amit modosítok",
+  "time" : {
+    "start" : 1629303559074,
+    "stop" : 1629303559078,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6ea9dee909fa847f",
+  "name" : "Belépés után a szabályos kijelentkezést ellenörzöm",
+  "time" : {
+    "start" : 1629303558939,
+    "stop" : 1629303558942,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "82574a5424095e3d",
+  "name" : "Mentem a hirdetések címét egy fájlba, majd ráellenörzök dbszám szerint",
+  "time" : {
+    "start" : 1629303558873,
+    "stop" : 1629303558886,
+    "duration" : 13
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9acfe28ea29dfea6",
+  "name" : "A bejelentkezést helyes folyamatát ellenörzöm",
+  "time" : {
+    "start" : 1629303558976,
+    "stop" : 1629303558979,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "eb85e87eedc0e46e",
+  "name" : "Ellenörzöm a jelszóemlékeztető helyes működését",
+  "time" : {
+    "start" : 1629303558988,
+    "stop" : 1629303558991,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "49092a687f279e82",
+  "name" : "Megnyitom az adatkezelési nyilatkozatot",
+  "time" : {
+    "start" : 1629303558642,
+    "stop" : 1629303558737,
+    "duration" : 95
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "eaffdd6708b7e1bb",
+  "name" : "Kontakt formot ellenörzöm bevitt adatokkal",
+  "time" : {
+    "start" : 1629303559056,
+    "stop" : 1629303559059,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "be8139e7a45c6eea",
+  "name" : "TestSearch()",
+  "time" : {
+    "start" : 1629303559030,
+    "stop" : 1629303559036,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "59ac6b95f759f032",
+  "name" : "Klikkelek az összes hirdetés linkre a nyitóoldalon",
+  "time" : {
+    "start" : 1629303558927,
+    "stop" : 1629303558932,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a5538aae407cf8a0",
+  "name" : "Ellenörzöm hirdetés nem nyomja-e szét az oldalt",
+  "time" : {
+    "start" : 1629303558903,
+    "stop" : 1629303558913,
+    "duration" : 10
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
