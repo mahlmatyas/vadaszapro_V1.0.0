@@ -1,0 +1,29 @@
+import java.util.Arrays;
+import java.util.Collections;
+
+public class a {
+    public static void main(String[] args) {
+        Integer[] values = {415,23,83,19,10,67,45,43,344,82};
+        //System.out.println(Arrays.toString(a.getGratest(values)));
+        //Arrays.sort(values,0,5);
+        Arrays.sort(values, Collections.reverseOrder()); //DESC
+        //Arrays.sort(values); // ASC
+        System.out.println(Arrays.toString(values));
+        Integer[] val = a.getGratest(values);
+        System.out.println(val[4]);
+
+    }
+    public static Integer[] getGratest(Integer[] array){
+        int temp = array[0];
+        for (int i = 0; i < array.length; i++) {
+            for (int j = i+1; j < array.length ; j++) {
+                if (array[i] > array[j]){
+                    temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                }
+            }
+        }
+        return array;
+    }
+}

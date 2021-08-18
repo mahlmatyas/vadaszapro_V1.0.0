@@ -1,0 +1,6 @@
+serial = 12345
+year = 1999
+text = Laci Te hallod e, jer ide, jer ha mondom rontom bontom ülj meg itten az ölemben
+price = 99999
+website = https://vadaszapro.net/
+youtube = https://youtube.com/
