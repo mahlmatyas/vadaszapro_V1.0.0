@@ -1,0 +1,156 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az74-348",
+    "children" : [ {
+      "name" : "2819@fv-az74-348.ForkJoinPool-1-worker-1(12)",
+      "children" : [ {
+        "name" : "Megnyitom az adatkezelési nyilatkozatot",
+        "uid" : "a8711042b7599b28",
+        "parentUid" : "633cdcfa78407f2266e3b175f275efaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629379675814,
+          "stop" : 1629379695802,
+          "duration" : 19988
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Klikkelek az összes hirdetés linkre a nyitóoldalon",
+        "uid" : "db10b83e5ea811af",
+        "parentUid" : "633cdcfa78407f2266e3b175f275efaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629379712658,
+          "stop" : 1629379715781,
+          "duration" : 3123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestSearch()",
+        "uid" : "71e29ee5b15fd51e",
+        "parentUid" : "633cdcfa78407f2266e3b175f275efaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629379748235,
+          "stop" : 1629379753032,
+          "duration" : 4797
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ellenörzöm hirdetés nem nyomja-e szét az oldalt",
+        "uid" : "264de56a27d0fd3",
+        "parentUid" : "633cdcfa78407f2266e3b175f275efaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629379707109,
+          "stop" : 1629379712654,
+          "duration" : 5545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Belépek egy hirdetésbe amit modosítok",
+        "uid" : "9e9f69d8e4715640",
+        "parentUid" : "633cdcfa78407f2266e3b175f275efaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629379760391,
+          "stop" : 1629379773001,
+          "duration" : 12610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "A bejelentkezést helyes folyamatát ellenörzöm",
+        "uid" : "cb239d43184cd5d2",
+        "parentUid" : "633cdcfa78407f2266e3b175f275efaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629379735120,
+          "stop" : 1629379743616,
+          "duration" : 8496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Kontakt formot ellenörzöm bevitt adatokkal",
+        "uid" : "38cb43a0dd9f0687",
+        "parentUid" : "633cdcfa78407f2266e3b175f275efaf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629379753045,
+          "stop" : 1629379760378,
+          "duration" : 7333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Belépés után a szabályos kijelentkezést ellenörzöm",
+        "uid" : "b50e43d771ad6a29",
+        "parentUid" : "633cdcfa78407f2266e3b175f275efaf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629379715800,
+          "stop" : 1629379726330,
+          "duration" : 10530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ellenörzöm a jelszóemlékeztető helyes működését",
+        "uid" : "a0fc8ba6292ea0c0",
+        "parentUid" : "633cdcfa78407f2266e3b175f275efaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629379743619,
+          "stop" : 1629379748224,
+          "duration" : 4605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestRegistration()",
+        "uid" : "a005498013b0dcc7",
+        "parentUid" : "633cdcfa78407f2266e3b175f275efaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629379726378,
+          "stop" : 1629379735082,
+          "duration" : 8704
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Mentem a hirdetések címét egy fájlba, majd ráellenörzök dbszám szerint",
+        "uid" : "60560168b886d123",
+        "parentUid" : "633cdcfa78407f2266e3b175f275efaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629379696025,
+          "stop" : 1629379707096,
+          "duration" : 11071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "633cdcfa78407f2266e3b175f275efaf"
+    } ],
+    "uid" : "8daccb9c7446a4591410943307b11040"
+  } ],
+  "name" : "timeline"
+}
