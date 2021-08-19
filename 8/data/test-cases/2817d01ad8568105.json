@@ -1,0 +1,155 @@
+{
+  "uid" : "2817d01ad8568105",
+  "name" : "TestRegistration()",
+  "fullName" : "Tests.TestRegistration.TestRegistration.TestRegistration",
+  "historyId" : "eba34b3d3fc77b7208326a35db5e9d02",
+  "time" : {
+    "start" : 1629374854872,
+    "stop" : 1629374863493,
+    "duration" : 8621
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629374854881,
+      "stop" : 1629374857557,
+      "duration" : 2676
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1629374863416,
+      "stop" : 1629374863493,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-854"
+  }, {
+    "name" : "thread",
+    "value" : "2888@fv-az83-854.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestRegistration.TestRegistration"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestRegistration.TestRegistration"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestRegistration.TestRegistration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "649bdbbaf60a7c8d",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_net/7//#testresult/649bdbbaf60a7c8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629306175867,
+          "stop" : 1629306184812,
+          "duration" : 8945
+        }
+      }, {
+        "uid" : "44d8ba88683bb9bc",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_net/6//#testresult/44d8ba88683bb9bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629305991798,
+          "stop" : 1629306000652,
+          "duration" : 8854
+        }
+      }, {
+        "uid" : "d989017a7112aaea",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/5//#testresult/d989017a7112aaea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629303621448,
+          "stop" : 1629303636192,
+          "duration" : 14744
+        }
+      }, {
+        "uid" : "4b60ef3f74f28a3d",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/4//#testresult/4b60ef3f74f28a3d",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303558948,
+          "stop" : 1629303558951,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "31e4a0e38ece0922",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/3//#testresult/31e4a0e38ece0922",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303515425,
+          "stop" : 1629303515426,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a2dd5be25dcee17b",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/2//#testresult/a2dd5be25dcee17b",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303284997,
+          "stop" : 1629303284999,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2817d01ad8568105.json",
+  "parameterValues" : [ ]
+}

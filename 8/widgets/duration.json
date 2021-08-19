@@ -1,0 +1,111 @@
+[ {
+  "uid" : "592ddc94ee72b4fa",
+  "name" : "A bejelentkezést helyes folyamatát ellenörzöm",
+  "time" : {
+    "start" : 1629374863528,
+    "stop" : 1629374872402,
+    "duration" : 8874
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef5b20e6669cc7fe",
+  "name" : "Ellenörzöm hirdetés nem nyomja-e szét az oldalt",
+  "time" : {
+    "start" : 1629374834863,
+    "stop" : 1629374840803,
+    "duration" : 5940
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3aad8a09d2f2f0dc",
+  "name" : "Belépés után a szabályos kijelentkezést ellenörzöm",
+  "time" : {
+    "start" : 1629374844131,
+    "stop" : 1629374854833,
+    "duration" : 10702
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bd977eea62b8d207",
+  "name" : "Kontakt formot ellenörzöm bevitt adatokkal",
+  "time" : {
+    "start" : 1629374883725,
+    "stop" : 1629374911483,
+    "duration" : 27758
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "927ea8dbdb3910cb",
+  "name" : "Megnyitom az adatkezelési nyilatkozatot",
+  "time" : {
+    "start" : 1629374798216,
+    "stop" : 1629374823463,
+    "duration" : 25247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "caf6529f35bb48e6",
+  "name" : "Ellenörzöm a jelszóemlékeztető helyes működését",
+  "time" : {
+    "start" : 1629374872417,
+    "stop" : 1629374877141,
+    "duration" : 4724
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2066ca4478c4918b",
+  "name" : "Klikkelek az összes hirdetés linkre a nyitóoldalon",
+  "time" : {
+    "start" : 1629374840812,
+    "stop" : 1629374844122,
+    "duration" : 3310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2817d01ad8568105",
+  "name" : "TestRegistration()",
+  "time" : {
+    "start" : 1629374854872,
+    "stop" : 1629374863493,
+    "duration" : 8621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6f694335189266a",
+  "name" : "Mentem a hirdetések címét egy fájlba, majd ráellenörzök dbszám szerint",
+  "time" : {
+    "start" : 1629374823606,
+    "stop" : 1629374834859,
+    "duration" : 11253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "658d124ce9f295fe",
+  "name" : "TestSearch()",
+  "time" : {
+    "start" : 1629374877154,
+    "stop" : 1629374883715,
+    "duration" : 6561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3256f4fa1012e3e1",
+  "name" : "Belépek egy hirdetésbe amit modosítok",
+  "time" : {
+    "start" : 1629374911491,
+    "stop" : 1629374924510,
+    "duration" : 13019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

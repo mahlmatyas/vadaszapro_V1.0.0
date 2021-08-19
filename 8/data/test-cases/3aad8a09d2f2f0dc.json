@@ -1,0 +1,164 @@
+{
+  "uid" : "3aad8a09d2f2f0dc",
+  "name" : "Belépés után a szabályos kijelentkezést ellenörzöm",
+  "fullName" : "Tests.TestLogout.TestLogout.TestLogout",
+  "historyId" : "70e578efad41592daf86b353e26e8259",
+  "time" : {
+    "start" : 1629374844131,
+    "stop" : 1629374854833,
+    "duration" : 10702
+  },
+  "description" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element is not clickable at point (888, 17)\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-854', ip: '10.1.1.168', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.FLyqv7}, goog:chromeOptions: {debuggerAddress: localhost:37377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 10c2935caebb0f249e8abff2cd34878d",
+  "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (888, 17)\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-854', ip: '10.1.1.168', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.FLyqv7}, goog:chromeOptions: {debuggerAddress: localhost:37377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 10c2935caebb0f249e8abff2cd34878d\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat Pages.Logout.Logout.logout(Logout.java:19)\n\tat Tests.TestLogout.TestLogout.TestLogout(TestLogout.java:30)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:117)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:129)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.executeNonConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:135)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)\n\tat java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)\n\tat java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)\n\tat java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)\n\tat java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629374844141,
+      "stop" : 1629374846865,
+      "duration" : 2724
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1629374854749,
+      "stop" : 1629374854829,
+      "duration" : 80
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-854"
+  }, {
+    "name" : "thread",
+    "value" : "2888@fv-az83-854.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestLogout.TestLogout"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestLogout.TestLogout"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLogout"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestLogout.TestLogout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 7,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "30ed5137bd5f171f",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_net/7//#testresult/30ed5137bd5f171f",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element is not clickable at point (888, 17)\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az81-606', ip: '10.1.0.115', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.EbeUYe}, goog:chromeOptions: {debuggerAddress: localhost:45597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b70709b3911302c37278c12971a56898",
+        "time" : {
+          "start" : 1629306165396,
+          "stop" : 1629306175815,
+          "duration" : 10419
+        }
+      }, {
+        "uid" : "7c6953eac1f00911",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_net/6//#testresult/7c6953eac1f00911",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element is not clickable at point (888, 17)\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-600', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.3P4i9f}, goog:chromeOptions: {debuggerAddress: localhost:37297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0c457f6a4da63696235c7799388bd515",
+        "time" : {
+          "start" : 1629305981047,
+          "stop" : 1629305991751,
+          "duration" : 10704
+        }
+      }, {
+        "uid" : "86a884ff62cd7725",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/5//#testresult/86a884ff62cd7725",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element is not clickable at point (888, 17)\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-600', ip: '10.1.0.150', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.uKnCoy}, goog:chromeOptions: {debuggerAddress: localhost:45299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0a114664bc108436693cc4256fad0a0f",
+        "time" : {
+          "start" : 1629303653784,
+          "stop" : 1629303664646,
+          "duration" : 10862
+        }
+      }, {
+        "uid" : "6ea9dee909fa847f",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/4//#testresult/6ea9dee909fa847f",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303558939,
+          "stop" : 1629303558942,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "d85b81bc8c1905b3",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/3//#testresult/d85b81bc8c1905b3",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303515005,
+          "stop" : 1629303515133,
+          "duration" : 128
+        }
+      }, {
+        "uid" : "dbc487948936b02c",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/2//#testresult/dbc487948936b02c",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303284974,
+          "stop" : 1629303284982,
+          "duration" : 8
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3aad8a09d2f2f0dc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,184 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Tests.TestAdatKezelesi.TestAdatKezelesi",
+    "children" : [ {
+      "name" : "Megnyitom az adatkezelési nyilatkozatot",
+      "uid" : "927ea8dbdb3910cb",
+      "parentUid" : "474dfe2d622f17a27dc2645f50944749",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629374798216,
+        "stop" : 1629374823463,
+        "duration" : 25247
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "474dfe2d622f17a27dc2645f50944749"
+  }, {
+    "name" : "Tests.TestIndexPage.TestIndexPage",
+    "children" : [ {
+      "name" : "Mentem a hirdetések címét egy fájlba, majd ráellenörzök dbszám szerint",
+      "uid" : "f6f694335189266a",
+      "parentUid" : "a88ac0613603c7b481bd6c9dbd3ff6c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629374823606,
+        "stop" : 1629374834859,
+        "duration" : 11253
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Ellenörzöm hirdetés nem nyomja-e szét az oldalt",
+      "uid" : "ef5b20e6669cc7fe",
+      "parentUid" : "a88ac0613603c7b481bd6c9dbd3ff6c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629374834863,
+        "stop" : 1629374840803,
+        "duration" : 5940
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Klikkelek az összes hirdetés linkre a nyitóoldalon",
+      "uid" : "2066ca4478c4918b",
+      "parentUid" : "a88ac0613603c7b481bd6c9dbd3ff6c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629374840812,
+        "stop" : 1629374844122,
+        "duration" : 3310
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a88ac0613603c7b481bd6c9dbd3ff6c0"
+  }, {
+    "name" : "Tests.TestLogout.TestLogout",
+    "children" : [ {
+      "name" : "Belépés után a szabályos kijelentkezést ellenörzöm",
+      "uid" : "3aad8a09d2f2f0dc",
+      "parentUid" : "79b4cd2c11eaa622ca686c011a8c9d88",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629374844131,
+        "stop" : 1629374854833,
+        "duration" : 10702
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "79b4cd2c11eaa622ca686c011a8c9d88"
+  }, {
+    "name" : "Tests.TestRegistration.TestRegistration",
+    "children" : [ {
+      "name" : "TestRegistration()",
+      "uid" : "2817d01ad8568105",
+      "parentUid" : "30defa31b85e6ca9371553ce10c4c0a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629374854872,
+        "stop" : 1629374863493,
+        "duration" : 8621
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "30defa31b85e6ca9371553ce10c4c0a1"
+  }, {
+    "name" : "Tests.TestLogin.TestLogin",
+    "children" : [ {
+      "name" : "A bejelentkezést helyes folyamatát ellenörzöm",
+      "uid" : "592ddc94ee72b4fa",
+      "parentUid" : "cdb075639f60769b2b7aadec0d842aac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629374863528,
+        "stop" : 1629374872402,
+        "duration" : 8874
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cdb075639f60769b2b7aadec0d842aac"
+  }, {
+    "name" : "Tests.TestNewPwd.TestNewPwd",
+    "children" : [ {
+      "name" : "Ellenörzöm a jelszóemlékeztető helyes működését",
+      "uid" : "caf6529f35bb48e6",
+      "parentUid" : "3d76711be015abd18db72199a216882e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629374872417,
+        "stop" : 1629374877141,
+        "duration" : 4724
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3d76711be015abd18db72199a216882e"
+  }, {
+    "name" : "Tests.TestSearch.TestSearch",
+    "children" : [ {
+      "name" : "TestSearch()",
+      "uid" : "658d124ce9f295fe",
+      "parentUid" : "cc6483bb5e6388e85861d22405570782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629374877154,
+        "stop" : 1629374883715,
+        "duration" : 6561
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cc6483bb5e6388e85861d22405570782"
+  }, {
+    "name" : "Tests.TestContact.TestContact",
+    "children" : [ {
+      "name" : "Kontakt formot ellenörzöm bevitt adatokkal",
+      "uid" : "bd977eea62b8d207",
+      "parentUid" : "9336107f95bcdbb7970298b05349ab60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629374883725,
+        "stop" : 1629374911483,
+        "duration" : 27758
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9336107f95bcdbb7970298b05349ab60"
+  }, {
+    "name" : "Tests.TestAdvertModify.TestAdvertModify",
+    "children" : [ {
+      "name" : "Belépek egy hirdetésbe amit modosítok",
+      "uid" : "3256f4fa1012e3e1",
+      "parentUid" : "f01814db435261324145ebb8ed5fb6d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629374911491,
+        "stop" : 1629374924510,
+        "duration" : 13019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f01814db435261324145ebb8ed5fb6d5"
+  } ],
+  "name" : "suites"
+}
