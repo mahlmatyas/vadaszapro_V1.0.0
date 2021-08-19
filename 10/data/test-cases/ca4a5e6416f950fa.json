@@ -1,0 +1,173 @@
+{
+  "uid" : "ca4a5e6416f950fa",
+  "name" : "Belépek egy hirdetésbe amit modosítok",
+  "fullName" : "Tests.TestAdvertModify.TestAdvertModify.TestHirdModositas",
+  "historyId" : "ce7ac9a03b171ed49e10baca3b187504",
+  "time" : {
+    "start" : 1629382143583,
+    "stop" : 1629382157254,
+    "duration" : 13671
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629382143584,
+      "stop" : 1629382146283,
+      "duration" : 2699
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1629382157178,
+      "stop" : 1629382157253,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-988"
+  }, {
+    "name" : "thread",
+    "value" : "2830@fv-az77-988.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestAdvertModify.TestAdvertModify"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestAdvertModify.TestAdvertModify"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestHirdModositas"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestAdvertModify.TestAdvertModify"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "9e9f69d8e4715640",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_net/9//#testresult/9e9f69d8e4715640",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629379760391,
+          "stop" : 1629379773001,
+          "duration" : 12610
+        }
+      }, {
+        "uid" : "3256f4fa1012e3e1",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_net/8//#testresult/3256f4fa1012e3e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629374911491,
+          "stop" : 1629374924510,
+          "duration" : 13019
+        }
+      }, {
+        "uid" : "f066d1d5e25f3415",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_net/7//#testresult/f066d1d5e25f3415",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629306232737,
+          "stop" : 1629306245896,
+          "duration" : 13159
+        }
+      }, {
+        "uid" : "305203dafdce26d8",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_net/6//#testresult/305203dafdce26d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629306046960,
+          "stop" : 1629306059773,
+          "duration" : 12813
+        }
+      }, {
+        "uid" : "c6adbab6a1cd6a62",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/5//#testresult/c6adbab6a1cd6a62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629303714086,
+          "stop" : 1629303727638,
+          "duration" : 13552
+        }
+      }, {
+        "uid" : "89cf95996821f458",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/4//#testresult/89cf95996821f458",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303559074,
+          "stop" : 1629303559078,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "a751501c8b1dc09a",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/3//#testresult/a751501c8b1dc09a",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303515475,
+          "stop" : 1629303515476,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "c74281b51473ddd0",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_V1.0.0/2//#testresult/c74281b51473ddd0",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_V1.0.0/vadaszapro_V1.0.0/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629303285099,
+          "stop" : 1629303285105,
+          "duration" : 6
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ca4a5e6416f950fa.json",
+  "parameterValues" : [ ]
+}

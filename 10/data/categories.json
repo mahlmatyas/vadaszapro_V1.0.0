@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element is not clickable at point (888, 17)\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-988', ip: '10.1.0.23', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.UwKpAA}, goog:chromeOptions: {debuggerAddress: localhost:39339}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0ee820d817cc4558063775a76da66e8c",
+      "children" : [ {
+        "name" : "Belépés után a szabályos kijelentkezést ellenörzöm",
+        "uid" : "14aaaf2503a98243",
+        "parentUid" : "0266df2a5040a1164073ab50b5515eac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629382100516,
+          "stop" : 1629382112668,
+          "duration" : 12152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0266df2a5040a1164073ab50b5515eac"
+    }, {
+      "name" : "element click intercepted: Element <input type=\"submit\" class=\"submit\" id=\"submit\" name=\"form_submit\" value=\"Üzenet küldése\"> is not clickable at point (339, 327). Other element would receive the click: <iframe name=\"f2fe032764ec29c\" width=\"1000px\" height=\"1000px\" data-testid=\"dialog_iframe\" title=\"\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\" allow=\"encrypted-media\" src=\"https://www.facebook.com/plugins/customerchat.php?app_id=217327965077425&amp;attribution=setup_tool&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df19a7a3b1bbd944%26domain%3Dvadaszapro.net%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fvadaszapro.net%252Ff1e5642bdbee3c%26relation%3Dparent.parent&amp;container_width=0&amp;current_url=https%3A%2F%2Fvadaszapro.net%2Fkapcsolat&amp;local_state=%7B%22v%22%3A0%2C%22path%22%3A2%2C%22chatState%22%3A1%2C%22visibility%22%3A%22not-hidden%22%2C%22showUpgradePrompt%22%3A%22not_shown%22%7D&amp;locale=hu_HU&amp;logged_in_greeting=a&amp;logged_out_greeting=a&amp;page_id=177425892289848&amp;request_time=1629382139263&amp;sdk=joey&amp;theme_color=%23d4a88c\" style=\"padding: 0px; position: fixed; z-index: 2147483646; border-radius: 16px; top: auto; width: 399px; background: none; bottom: 85px; max-height: calc(100% - 85px); left: -4px; margin-left: 12px; height: 458px; visibility: visible;\" class=\"\"></iframe>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-988', ip: '10.1.0.23', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.ZqNOMj}, goog:chromeOptions: {debuggerAddress: localhost:33189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 29bae7be85324db6c2b29b2347a79edb",
+      "children" : [ {
+        "name" : "Kontakt formot ellenörzöm bevitt adatokkal",
+        "uid" : "3139188fa941637a",
+        "parentUid" : "68df677761a22e1b27c7bb93dae5f064",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629382134409,
+          "stop" : 1629382143544,
+          "duration" : 9135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "68df677761a22e1b27c7bb93dae5f064"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

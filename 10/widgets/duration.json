@@ -1,0 +1,111 @@
+[ {
+  "uid" : "ca4a5e6416f950fa",
+  "name" : "Belépek egy hirdetésbe amit modosítok",
+  "time" : {
+    "start" : 1629382143583,
+    "stop" : 1629382157254,
+    "duration" : 13671
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c07e57fe03393d2",
+  "name" : "Ellenörzöm hirdetés nem nyomja-e szét az oldalt",
+  "time" : {
+    "start" : 1629382106054,
+    "stop" : 1629382112576,
+    "duration" : 6522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50554fe8744aa34e",
+  "name" : "Mentem a hirdetések címét egy fájlba, majd ráellenörzök dbszám szerint",
+  "time" : {
+    "start" : 1629382081775,
+    "stop" : 1629382105855,
+    "duration" : 24080
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "923cc9548a8be386",
+  "name" : "TestSearch()",
+  "time" : {
+    "start" : 1629382129012,
+    "stop" : 1629382134390,
+    "duration" : 5378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14aaaf2503a98243",
+  "name" : "Belépés után a szabályos kijelentkezést ellenörzöm",
+  "time" : {
+    "start" : 1629382100516,
+    "stop" : 1629382112668,
+    "duration" : 12152
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "89a0d076f4918052",
+  "name" : "A bejelentkezést helyes folyamatát ellenörzöm",
+  "time" : {
+    "start" : 1629382112692,
+    "stop" : 1629382123196,
+    "duration" : 10504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d528234699ec525",
+  "name" : "TestRegistration()",
+  "time" : {
+    "start" : 1629382116834,
+    "stop" : 1629382126929,
+    "duration" : 10095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22ebb314669655fc",
+  "name" : "Megnyitom az adatkezelési nyilatkozatot",
+  "time" : {
+    "start" : 1629382081811,
+    "stop" : 1629382100221,
+    "duration" : 18410
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa5ea01d5b5f4f7",
+  "name" : "Ellenörzöm a jelszóemlékeztető helyes működését",
+  "time" : {
+    "start" : 1629382123224,
+    "stop" : 1629382128994,
+    "duration" : 5770
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3139188fa941637a",
+  "name" : "Kontakt formot ellenörzöm bevitt adatokkal",
+  "time" : {
+    "start" : 1629382134409,
+    "stop" : 1629382143544,
+    "duration" : 9135
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9754444164f45667",
+  "name" : "Klikkelek az összes hirdetés linkre a nyitóoldalon",
+  "time" : {
+    "start" : 1629382112586,
+    "stop" : 1629382116824,
+    "duration" : 4238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
