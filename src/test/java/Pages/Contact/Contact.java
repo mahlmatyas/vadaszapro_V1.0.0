@@ -27,11 +27,11 @@ public class Contact {
     }
 
     public void msgSend(String Nev, String phoneGenerator, String Email, String msgGenerator, String Captcha){
-        driver.findElement(CM.CONTACT_NAME).sendKeys(Nev);
-        driver.findElement(CM.CONTACT_TELEFON).sendKeys(phoneGenerator);
-        driver.findElement(CM.CONTACT_EMAIL).sendKeys(Email);
-        driver.findElement(CM.CONTACT_MSG).sendKeys(msgGenerator);
-        driver.findElement(CM.CONTACT_CAPTCHA).sendKeys(Captcha);
-        driver.findElement(CM.CONTACT_MSGBUTTON).click();
+        Meth.goWait(CM.CONTACT_NAME,driver).sendKeys(Nev);
+        Meth.goWait(CM.CONTACT_TELEFON,driver).sendKeys(phoneGenerator);
+        Meth.goWait(CM.CONTACT_EMAIL,driver).sendKeys(Email);
+        Meth.goWait(CM.CONTACT_MSG,driver).sendKeys(msgGenerator);
+        Meth.goWait(CM.CONTACT_CAPTCHA,driver).sendKeys(Captcha);
+        Meth.goWait(CM.CONTACT_MSGBUTTON,driver).click();
     }
 }

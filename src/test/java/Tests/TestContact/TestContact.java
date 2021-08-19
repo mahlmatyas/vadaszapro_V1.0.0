@@ -25,11 +25,7 @@ public class TestContact extends TestEnv {
                 CT.CONTACT_EMAIL,
                 Meth.msgGenerator(),
                 CT.CONTACT_CAPTCHA);
-        try {
-            Thread.sleep(20000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
         Assertions.assertEquals(CT.CONTACT_URL, driver.getCurrentUrl());
     }
 }
