@@ -1,0 +1,195 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az77-28",
+    "children" : [ {
+      "name" : "2899@fv-az77-28.ForkJoinPool-1-worker-1(12)",
+      "children" : [ {
+        "name" : "Modosito fajl letezik es van e tartalma",
+        "uid" : "ad7e00fa5856fba4",
+        "parentUid" : "463a65bb72755d0aabc5f52b6843cedd",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629546531477,
+          "stop" : 1629546531477,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Mentem a hirdetések címét egy fájlba, majd ráellenörzök dbszám szerint",
+        "uid" : "44b7d607a6bb69ee",
+        "parentUid" : "463a65bb72755d0aabc5f52b6843cedd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629546531507,
+          "stop" : 1629546541698,
+          "duration" : 10191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "A generalt szam Range-en belul van-e",
+        "uid" : "3aaef1e84fbc7c4d",
+        "parentUid" : "463a65bb72755d0aabc5f52b6843cedd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629546531444,
+          "stop" : 1629546531463,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ellenörzöm hirdetés nem nyomja-e szét az oldalt",
+        "uid" : "c2662af0d740ab52",
+        "parentUid" : "463a65bb72755d0aabc5f52b6843cedd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629546541701,
+          "stop" : 1629546547606,
+          "duration" : 5905
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestSearch()",
+        "uid" : "83fc387494348efc",
+        "parentUid" : "463a65bb72755d0aabc5f52b6843cedd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629546583702,
+          "stop" : 1629546590178,
+          "duration" : 6476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Telefonszam hossza, tipusa",
+        "uid" : "666de84d9362d66a",
+        "parentUid" : "463a65bb72755d0aabc5f52b6843cedd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629546531490,
+          "stop" : 1629546531494,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestRegistration()",
+        "uid" : "f53aca7338061535",
+        "parentUid" : "463a65bb72755d0aabc5f52b6843cedd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629546561240,
+          "stop" : 1629546570210,
+          "duration" : 8970
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "A bejelentkezést helyes folyamatát ellenörzöm",
+        "uid" : "12a703622ad7e800",
+        "parentUid" : "463a65bb72755d0aabc5f52b6843cedd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629546570239,
+          "stop" : 1629546578928,
+          "duration" : 8689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Belépés után a szabályos kijelentkezést ellenörzöm",
+        "uid" : "15f476d14aab89ae",
+        "parentUid" : "463a65bb72755d0aabc5f52b6843cedd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629546550750,
+          "stop" : 1629546561181,
+          "duration" : 10431
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Adatkezelési nyilatkozat ellenörzése",
+        "uid" : "93be29c5ed65beca",
+        "parentUid" : "463a65bb72755d0aabc5f52b6843cedd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629546512958,
+          "stop" : 1629546531326,
+          "duration" : 18368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ellenörzöm a jelszóemlékeztető helyes működését",
+        "uid" : "a41714c99293aff9",
+        "parentUid" : "463a65bb72755d0aabc5f52b6843cedd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629546578943,
+          "stop" : 1629546583695,
+          "duration" : 4752
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Belépek egy hirdetésbe amit modosítok",
+        "uid" : "2ca22dd85417eef1",
+        "parentUid" : "463a65bb72755d0aabc5f52b6843cedd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629546597899,
+          "stop" : 1629546611365,
+          "duration" : 13466
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Kontakt formot ellenörzöm bevitt adatokkal",
+        "uid" : "a8c53fc59560584d",
+        "parentUid" : "463a65bb72755d0aabc5f52b6843cedd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629546590184,
+          "stop" : 1629546597894,
+          "duration" : 7710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Klikkelek az összes hirdetés linkre a nyitóoldalon",
+        "uid" : "af7a53b78e9205b6",
+        "parentUid" : "463a65bb72755d0aabc5f52b6843cedd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629546547616,
+          "stop" : 1629546550735,
+          "duration" : 3119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "463a65bb72755d0aabc5f52b6843cedd"
+    } ],
+    "uid" : "6a47ed3ebcb37b4e63e4e28012bcbe36"
+  } ],
+  "name" : "timeline"
+}

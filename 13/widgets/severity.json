@@ -1,0 +1,141 @@
+[ {
+  "uid" : "3aaef1e84fbc7c4d",
+  "name" : "A generalt szam Range-en belul van-e",
+  "time" : {
+    "start" : 1629546531444,
+    "stop" : 1629546531463,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93be29c5ed65beca",
+  "name" : "Adatkezelési nyilatkozat ellenörzése",
+  "time" : {
+    "start" : 1629546512958,
+    "stop" : 1629546531326,
+    "duration" : 18368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a41714c99293aff9",
+  "name" : "Ellenörzöm a jelszóemlékeztető helyes működését",
+  "time" : {
+    "start" : 1629546578943,
+    "stop" : 1629546583695,
+    "duration" : 4752
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad7e00fa5856fba4",
+  "name" : "Modosito fajl letezik es van e tartalma",
+  "time" : {
+    "start" : 1629546531477,
+    "stop" : 1629546531477,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "12a703622ad7e800",
+  "name" : "A bejelentkezést helyes folyamatát ellenörzöm",
+  "time" : {
+    "start" : 1629546570239,
+    "stop" : 1629546578928,
+    "duration" : 8689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af7a53b78e9205b6",
+  "name" : "Klikkelek az összes hirdetés linkre a nyitóoldalon",
+  "time" : {
+    "start" : 1629546547616,
+    "stop" : 1629546550735,
+    "duration" : 3119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8c53fc59560584d",
+  "name" : "Kontakt formot ellenörzöm bevitt adatokkal",
+  "time" : {
+    "start" : 1629546590184,
+    "stop" : 1629546597894,
+    "duration" : 7710
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2ca22dd85417eef1",
+  "name" : "Belépek egy hirdetésbe amit modosítok",
+  "time" : {
+    "start" : 1629546597899,
+    "stop" : 1629546611365,
+    "duration" : 13466
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "15f476d14aab89ae",
+  "name" : "Belépés után a szabályos kijelentkezést ellenörzöm",
+  "time" : {
+    "start" : 1629546550750,
+    "stop" : 1629546561181,
+    "duration" : 10431
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "44b7d607a6bb69ee",
+  "name" : "Mentem a hirdetések címét egy fájlba, majd ráellenörzök dbszám szerint",
+  "time" : {
+    "start" : 1629546531507,
+    "stop" : 1629546541698,
+    "duration" : 10191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "666de84d9362d66a",
+  "name" : "Telefonszam hossza, tipusa",
+  "time" : {
+    "start" : 1629546531490,
+    "stop" : 1629546531494,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f53aca7338061535",
+  "name" : "TestRegistration()",
+  "time" : {
+    "start" : 1629546561240,
+    "stop" : 1629546570210,
+    "duration" : 8970
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83fc387494348efc",
+  "name" : "TestSearch()",
+  "time" : {
+    "start" : 1629546583702,
+    "stop" : 1629546590178,
+    "duration" : 6476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2662af0d740ab52",
+  "name" : "Ellenörzöm hirdetés nem nyomja-e szét az oldalt",
+  "time" : {
+    "start" : 1629546541701,
+    "stop" : 1629546547606,
+    "duration" : 5905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

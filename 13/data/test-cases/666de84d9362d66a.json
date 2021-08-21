@@ -1,0 +1,92 @@
+{
+  "uid" : "666de84d9362d66a",
+  "name" : "Telefonszam hossza, tipusa",
+  "fullName" : "Tests.TestMethods.TestMethods.TestphoneGenerator",
+  "historyId" : "2750fb3a41bd9b48c0fa25363dc6a91d",
+  "time" : {
+    "start" : 1629546531490,
+    "stop" : 1629546531494,
+    "duration" : 4
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrintTestName",
+    "time" : {
+      "start" : 1629546531491,
+      "stop" : 1629546531491,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-28"
+  }, {
+    "name" : "thread",
+    "value" : "2899@fv-az77-28.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestMethods.TestMethods"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestMethods.TestMethods"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestphoneGenerator"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestMethods.TestMethods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "88d1c486486f5fa3",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_net/12//#testresult/88d1c486486f5fa3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629546208915,
+          "stop" : 1629546208920,
+          "duration" : 5
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "666de84d9362d66a.json",
+  "parameterValues" : [ ]
+}

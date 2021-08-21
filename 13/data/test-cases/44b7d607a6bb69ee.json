@@ -1,0 +1,123 @@
+{
+  "uid" : "44b7d607a6bb69ee",
+  "name" : "Mentem a hirdetések címét egy fájlba, majd ráellenörzök dbszám szerint",
+  "fullName" : "Tests.TestIndexPage.TestIndexPage.TestSaveAdvertTitleToFile",
+  "historyId" : "3e5892e6fa642e983161445667ed2d95",
+  "time" : {
+    "start" : 1629546531507,
+    "stop" : 1629546541698,
+    "duration" : 10191
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrintTestName",
+    "time" : {
+      "start" : 1629546531513,
+      "stop" : 1629546531513,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629546531513,
+      "stop" : 1629546534271,
+      "duration" : 2758
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1629546541619,
+      "stop" : 1629546541697,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-28"
+  }, {
+    "name" : "thread",
+    "value" : "2899@fv-az77-28.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestIndexPage.TestIndexPage"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestIndexPage.TestIndexPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestSaveAdvertTitleToFile"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestIndexPage.TestIndexPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "4e135ff4c3c97ed",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_net/12//#testresult/4e135ff4c3c97ed",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_net/vadaszapro_net/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629546208934,
+          "stop" : 1629546208938,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "44b7d607a6bb69ee.json",
+  "parameterValues" : [ ]
+}

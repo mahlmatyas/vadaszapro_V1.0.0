@@ -1,0 +1,123 @@
+{
+  "uid" : "a41714c99293aff9",
+  "name" : "Ellenörzöm a jelszóemlékeztető helyes működését",
+  "fullName" : "Tests.TestNewPwd.TestNewPwd.TestNewPwd",
+  "historyId" : "20800b9a53d68649b7090d5eb30fdc18",
+  "time" : {
+    "start" : 1629546578943,
+    "stop" : 1629546583695,
+    "duration" : 4752
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrintTestName",
+    "time" : {
+      "start" : 1629546578944,
+      "stop" : 1629546578944,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629546578944,
+      "stop" : 1629546581406,
+      "duration" : 2462
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1629546583621,
+      "stop" : 1629546583694,
+      "duration" : 73
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-28"
+  }, {
+    "name" : "thread",
+    "value" : "2899@fv-az77-28.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestNewPwd.TestNewPwd"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestNewPwd.TestNewPwd"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestNewPwd"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestNewPwd.TestNewPwd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6b808f0529664b76",
+        "reportUrl" : "https://mahlmatyas.github.io/vadaszapro_net/12//#testresult/6b808f0529664b76",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/vadaszapro_net/vadaszapro_net/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1629546209039,
+          "stop" : 1629546209044,
+          "duration" : 5
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a41714c99293aff9.json",
+  "parameterValues" : [ ]
+}
