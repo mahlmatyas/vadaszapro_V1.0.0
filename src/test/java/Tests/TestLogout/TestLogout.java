@@ -12,13 +12,13 @@ import org.junit.jupiter.api.Test;
 public class TestLogout extends TestEnv {
 
     //properties
-    public IndexPage indexPage;
-    public Login login;
-    public Logout logout;
+    private IndexPage indexPage;
+    private Login login;
+    private Logout logout;
 
     @DisplayName("Belépés után a szabályos kijelentkezést ellenörzöm")
     @Test
-    public void TestLogout(){
+    void TestLogout(){
         indexPage = new IndexPage(driver);
         indexPage.hirdFeladaslink(); //hird feladas linket leklikkelem
 

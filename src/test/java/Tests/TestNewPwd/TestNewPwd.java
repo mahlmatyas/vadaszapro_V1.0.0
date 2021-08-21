@@ -10,7 +10,7 @@ public class TestNewPwd extends TestEnv {
 
     @DisplayName("Ellenörzöm a jelszóemlékeztető helyes működését")
     @Test
-    public void TestNewPwd(){
+    void TestNewPwd(){
         IndexPage indexPage = new IndexPage(driver);
         indexPage.hirdFeladaslink(); // leklikkelem a hird feladás linket
 

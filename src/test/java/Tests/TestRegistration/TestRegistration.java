@@ -11,7 +11,7 @@ public class TestRegistration extends TestEnv {
     Registration registration;
 
     @Test
-    public void TestRegistration(){
+    void TestRegistration(){
         indexPage.hirdFeladaslink(); //Leklikkelem a hirdetés feladás linket a nyitóoldalon
 
         registration = new Registration(driver);

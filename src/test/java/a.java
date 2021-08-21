@@ -1,16 +1,22 @@
+import General.Meth;
+
 import java.util.Arrays;
 import java.util.Collections;
 
 public class a {
     public static void main(String[] args) {
-        Integer[] values = {415,23,83,19,10,67,45,43,344,82};
+        //Integer[] values = {415,23,83,19,10,67,45,43,344,82};
         //System.out.println(Arrays.toString(a.getGratest(values)));
         //Arrays.sort(values,0,5);
-        Arrays.sort(values, Collections.reverseOrder()); //DESC
+        //Arrays.sort(values, Collections.reverseOrder()); //DESC
         //Arrays.sort(values); // ASC
-        System.out.println(Arrays.toString(values));
-        Integer[] val = a.getGratest(values);
-        System.out.println(val[4]);
+        //System.out.println(Arrays.toString(values));
+        //Integer[] val = a.getGratest(values);
+        //System.out.println(val[4]);
+
+        String phoneNum = Meth.phoneGenerator();
+        String last4 = phoneNum.substring(10);
+        System.out.println(phoneNum.substring(9));
 
     }
     public static Integer[] getGratest(Integer[] array){

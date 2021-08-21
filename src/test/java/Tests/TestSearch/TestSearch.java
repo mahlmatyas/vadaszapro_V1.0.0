@@ -11,7 +11,7 @@ public class TestSearch extends TestEnv {
     private Search search;
 
     @Test
-    public void TestSearch(){
+    void TestSearch(){
         search = new Search(driver);
         search.search();
 

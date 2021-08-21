@@ -15,7 +15,7 @@ public class TestLogin extends TestEnv {
 
     @DisplayName("A bejelentkezést helyes folyamatát ellenörzöm")
     @Test
-    public void TestBelepes() {
+    void TestBelepes() {
         indexPage.hirdFeladaslink();   //Leklikkelem a hirdetés feladás linket a nyitóoldalon
 
         login = new Login(driver);

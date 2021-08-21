@@ -14,12 +14,12 @@ import java.util.HashMap;
 public class TestAdvertModify extends TestEnv {
 
     //properties
-    public AdvertModify advertModify;
-    public Login login;
+    private AdvertModify advertModify;
+    private Login login;
 
     @DisplayName("Belépek egy hirdetésbe amit modosítok")
     @Test
-    public void TestHirdModositas() {
+    void TestHirdModositas() {
         indexPage.hirdFeladaslink();   //Leklikkelem a hirdetés feladás linket a nyitóoldalon
 
         login = new Login(driver);

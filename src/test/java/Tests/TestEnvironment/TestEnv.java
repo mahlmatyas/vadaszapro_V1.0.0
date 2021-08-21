@@ -3,25 +3,24 @@ package Tests.TestEnvironment;
 import General.CT;
 import General.Meth;
 import Pages.IndexPage.IndexPage;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import General.PrintTestName;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestEnv {
+public class TestEnv implements PrintTestName {
+
     protected WebDriver driver;
     protected IndexPage indexPage;
-    protected WebDriverWait wait;
 
     @BeforeEach
-    public void SetUp() {
-        WebDriverManager.chromedriver().setup();
-        //System.setProperty("webdriver.chrome.driver", "C:/webdriver/chromedriver.exe");
+    void SetUp() {
+        //WebDriverManager.chromedriver().setup();
+        System.setProperty("webdriver.chrome.driver", "C:/webdriver/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
         options.addArguments("--headless");
@@ -38,7 +37,7 @@ public class TestEnv {
     }
 
     @AfterEach
-    public void TearDown(){
+    void TearDown(){
         driver.quit();
     }
 }

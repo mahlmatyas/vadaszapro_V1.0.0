@@ -15,7 +15,7 @@ public class TestContact extends TestEnv {
 
     @DisplayName("Kontakt formot ellenörzöm bevitt adatokkal")
     @Test
-    public void TestContact() {
+    void TestContact() {
         contact = new Contact(driver);
         contact.contactLink();
 

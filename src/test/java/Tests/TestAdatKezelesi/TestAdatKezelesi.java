@@ -10,9 +10,9 @@ import org.junit.jupiter.api.Test;
 
 public class TestAdatKezelesi extends TestEnv {
 
-    @DisplayName("Megnyitom az adatkezelési nyilatkozatot")
+    @DisplayName("Adatkezelési nyilatkozat ellenörzése")
     @Test
-    public void TestAdatKezelesi(){
+    void TestAdatKezelesi(){
         IndexPage indexPage = new IndexPage(driver);
         indexPage.hirdFeladaslink();
 
