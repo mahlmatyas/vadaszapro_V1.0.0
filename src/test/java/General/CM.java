@@ -13,7 +13,7 @@ public class CM {
     public static final By INDEX_ADVERT_CONTENT_TITLE = By.xpath("//*[contains(@class,'newstitle')]//a");
 
     //Search
-    public static final By SEARCH_INPUT = By.xpath("//*[contains(@class,'sb_input')]");
+    public static final By SEARCH_INPUT = By.className("sb_input");
     public static final By SEARCH_INPUT_BUTTON = By.xpath("//*[contains(@class,'sb_search')]");
 
     //Contact

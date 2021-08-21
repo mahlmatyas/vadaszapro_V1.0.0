@@ -24,10 +24,10 @@ public class IndexGetTitles {
 
 
     public boolean storeAdvertTitleToFile() {
-        boolean index = true;
-        boolean result = false;
-        int n = 0;
-        int i = 1;
+
+        boolean index = true, result = false;
+        int n = 0, i = 1;
+
         while (n < 2) {
             if (index){
                 driver.navigate().to(CT.INDEX_URL);

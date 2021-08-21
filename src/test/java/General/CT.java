@@ -15,7 +15,7 @@ public class CT {
 
 
     //Search
-    public static final String SEARCH_INPUT_VALUE = "R8";
+    public static final String SEARCH_INPUT_VALUE = "vizsla";
     public static final String SEARCH_LANDING_URL = "https://vadaszapro.net/ujkereses/1";
 
     //Login
