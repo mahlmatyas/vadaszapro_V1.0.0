@@ -4,6 +4,7 @@ import General.CT;
 import General.Meth;
 import Pages.IndexPage.IndexPage;
 import General.PrintTestName;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
@@ -19,8 +20,8 @@ public class TestEnv implements PrintTestName {
 
     @BeforeEach
     void SetUp() {
-        //WebDriverManager.chromedriver().setup();
-        System.setProperty("webdriver.chrome.driver", "C:/webdriver/chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
+        //System.setProperty("webdriver.chrome.driver", "C:/webdriver/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
         options.addArguments("--headless");
