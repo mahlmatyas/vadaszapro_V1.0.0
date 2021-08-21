@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element is not clickable at point (888, 17)\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-683', ip: '10.1.0.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.PjZXUE}, goog:chromeOptions: {debuggerAddress: localhost:42059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ceddd11498bf2b762a2cf11800dd61f7",
+      "children" : [ {
+        "name" : "Belépés után a szabályos kijelentkezést ellenörzöm",
+        "uid" : "31606417f93afa68",
+        "parentUid" : "6d0c6305a877216b3ab64c8eaaf283fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629573598745,
+          "stop" : 1629573618095,
+          "duration" : 19350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d0c6305a877216b3ab64c8eaaf283fb"
+    }, {
+      "name" : "Keys to send should be a not null CharSequence",
+      "children" : [ {
+        "name" : "Belépek egy hirdetésbe amit modosítok",
+        "uid" : "347565632eb70f04",
+        "parentUid" : "8863195d2002b04b9f89a669982dae2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629573618105,
+          "stop" : 1629573630538,
+          "duration" : 12433
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8863195d2002b04b9f89a669982dae2c"
+    }, {
+      "name" : "element click intercepted: Element <input type=\"submit\" class=\"submit\" id=\"submit\" name=\"form_submit\" value=\"Üzenet küldése\"> is not clickable at point (339, 327). Other element would receive the click: <iframe name=\"f2c9b6d88ccde\" width=\"1000px\" height=\"1000px\" data-testid=\"dialog_iframe\" title=\"\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\" allow=\"encrypted-media\" src=\"https://www.facebook.com/plugins/customerchat.php?app_id=217327965077425&amp;attribution=setup_tool&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfd8ea46f8481a4%26domain%3Dvadaszapro.net%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fvadaszapro.net%252Ff16d40d7bdce7d8%26relation%3Dparent.parent&amp;container_width=0&amp;current_url=https%3A%2F%2Fvadaszapro.net%2Fkapcsolat&amp;locale=hu_HU&amp;logged_in_greeting=a&amp;logged_out_greeting=a&amp;page_id=177425892289848&amp;request_time=1629573666180&amp;sdk=joey&amp;theme_color=%23d4a88c\" style=\"padding: 0px; position: fixed; z-index: 2147483646; border-radius: 16px; top: auto; width: 399px; background: none; bottom: 85px; max-height: calc(100% - 85px); left: -4px; margin-left: 12px; visibility: visible; height: 458px;\" class=\"\"></iframe>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-683', ip: '10.1.0.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.PeRtey}, goog:chromeOptions: {debuggerAddress: localhost:32799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 92c979c69b7d73edc17a509c4d1d10ff",
+      "children" : [ {
+        "name" : "Kontakt formot ellenörzöm bevitt adatokkal",
+        "uid" : "64ba5a031a91aa1b",
+        "parentUid" : "6010beb1471b50a50b69f34ebb9e194e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629573662546,
+          "stop" : 1629573670299,
+          "duration" : 7753
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6010beb1471b50a50b69f34ebb9e194e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

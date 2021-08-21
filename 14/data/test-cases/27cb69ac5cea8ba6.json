@@ -1,0 +1,102 @@
+{
+  "uid" : "27cb69ac5cea8ba6",
+  "name" : "Keresés értékére",
+  "fullName" : "Tests.TestSearch.TestSearch.TestSearchValue",
+  "historyId" : "9842b189196bd124ed3e85fbb8e0fea4",
+  "time" : {
+    "start" : 1629573651523,
+    "stop" : 1629573662534,
+    "duration" : 11011
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrintTestName",
+    "time" : {
+      "start" : 1629573651528,
+      "stop" : 1629573651529,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629573651529,
+      "stop" : 1629573653514,
+      "duration" : 1985
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1629573662460,
+      "stop" : 1629573662534,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-683"
+  }, {
+    "name" : "thread",
+    "value" : "2967@fv-az39-683.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestSearch.TestSearch"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestSearch.TestSearch"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestSearchValue"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestSearch.TestSearch"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27cb69ac5cea8ba6.json",
+  "parameterValues" : [ ]
+}
