@@ -1,0 +1,58 @@
+{
+  "uid" : "b9d4914657b4c68a",
+  "name" : "Modosito fajl letezik es van e tartalma",
+  "fullName" : "Tests.TestMethods.TestMethods.fileExist",
+  "historyId" : "e4e36864509fd086167bc60c096c1a7",
+  "time" : {
+    "start" : 1629546208907,
+    "stop" : 1629546208907,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "void Tests.TestMethods.TestMethods.fileExist() is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-136"
+  }, {
+    "name" : "thread",
+    "value" : "2988@fv-az74-136.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestMethods.TestMethods"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestMethods.TestMethods"
+  }, {
+    "name" : "testMethod",
+    "value" : "fileExist"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestMethods.TestMethods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9d4914657b4c68a.json",
+  "parameterValues" : [ ]
+}

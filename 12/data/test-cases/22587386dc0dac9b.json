@@ -1,0 +1,72 @@
+{
+  "uid" : "22587386dc0dac9b",
+  "name" : "A generalt szam Range-en belul van-e",
+  "fullName" : "Tests.TestMethods.TestMethods.TestRandNum",
+  "historyId" : "518cb70018c605facc3a1006f0b102e3",
+  "time" : {
+    "start" : 1629546208892,
+    "stop" : 1629546208898,
+    "duration" : 6
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrintTestName",
+    "time" : {
+      "start" : 1629546208893,
+      "stop" : 1629546208893,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-136"
+  }, {
+    "name" : "thread",
+    "value" : "2988@fv-az74-136.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestMethods.TestMethods"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestMethods.TestMethods"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestRandNum"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestMethods.TestMethods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22587386dc0dac9b.json",
+  "parameterValues" : [ ]
+}
